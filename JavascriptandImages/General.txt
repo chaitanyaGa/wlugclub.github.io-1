@@ -1,0 +1,4 @@
+CAT 
+
+Command o/p std output cmd
+i/p std i/p i.e. cmd

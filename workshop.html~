@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="JavascriptandImages/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="JavascriptandImages/js-image-slider.js" type="text/javascript"></script>
+    <link href="JavascriptandImages/generic.css" rel="stylesheet" type="text/css" />
+<style>
+body {
+
+zoom: 120%;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>WLUG</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--header start -->
+
+
+
+<div id="header">
+
+
+<a href="Login.html" class="member">members login</a>
+
+<img src="images/logo.gif" alt="web development" />
+<!-- img src="linux.png" alt="my img" style="left:00px;top:85px;height:200px;width:778px"-->
+
+<div id="sliderFrame" style="left:00px;top:-250px;height:100px;width:600px">
+        <div id="slider">
+            <a href="http://www.menucool.com/javascript-image-slider" target="_blank">
+                <img src="JavascriptandImages/i1.jpg" alt="" />
+            </a>
+            <img src="JavascriptandImages/i2.jpg" alt="" />
+            <img src="JavascriptandImages/i3.jpg" alt="" />
+            <img src="JavascriptandImages/i4.jpg" alt=""/>
+            <img src="JavascriptandImages/i5.jpg" />
+        </div>
+    </div>
+
+
+<ul class="nav" style="padding-left:10%">
+			<li><a href="index.html">Home</a></li>
+			<li class="home">Workshops</a></li>
+			
+			<li><a href="clubs.html">Club Services</a></li>
+			<li><a href="cmd.html">Linux Commands </a></li>
+			<li><a href="aboutus.html">about us</a></li>
+			<li><a href="contact.html">contact us</a></li>
+</ul>
+</div>
+<!--header end -->
+<!--body start -->
+<div id="body">
+<p class="top"></p>
+<!--left panel start -->
+<div id="left">
+			<h2>Workshops and events</h2>
+			<h3>Open source Day</h3>
+			<p class="text1">The event for newbies to open source technology. Get the rudiments about Linux world Open source movement. Event organized for walchand college students free of cost.Learn How to install operating system,how can you become part of open source saga. Event organised in the month of july-august every year.come and be part of it.</p>
+			<p class="text2">for upcoming events see in home tab</p>
+			
+			<h3>Metamorphasis</h3>
+			
+			<p class="text1">The Mega Event organised in first semester of academic year.2 day workshop for Open Source Technologies like python,shell scripting,Ubuntu Customization Kit.  </p>
+			<p class="text2">and many more topics related to Linux,Networking and administration.</p>
+			
+			
+			
+			<h3>Techno-tweet</h3>
+			
+			<p class="text1">The Mega Event organised in Second semester of academic year.2 day workshop for New Exciting open Source Technologies like Drupal,wordpress,Android etc.  </p>
+			<p class="text2">and many more topics related to Linux, web development,Technologies....</p>
+
+			
+</div>
+<!--left panel end -->
+<!--right panel start -->
+<div id="right">
+<h2>Search</h2>
+<form name="serch" action="#" method="post">
+			<p class="domain">enter the domain name</p>
+			<input type="text" name="name" />
+			<input type="submit" name="go" value="" class="go" />
+</form>
+<h2 class="scope">Contact modes</h2>
+<ul>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">GitHub</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Google+</a></li>
+			
+</ul>
+
+</div>
+<!--right panel end -->
+<p class="bot"></p>
+<br class="spacer" />
+</div>
+<!--body end -->
+<!--footer start -->
+<div id="footer">
+<ul>
+<li><a href="#">Home</a>|</li>
+<li><a href="#">Workshops</a>|</li>
+<li><a href="#">Club Service</a>|</li>
+<li><a href="#">Linux Commands</a>|</li>
+<li><a href="#">about us</a>|</li>
+<li><a href="#">contact us</a></li>
+</ul>
+<p class="copyright">&nbsp; &copy; WLUG. All rights reserved.</p>
+</div>
+<!--footer end -->
+</body>
+</html>

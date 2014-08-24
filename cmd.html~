@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link href="JavascriptandImages/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="JavascriptandImages/js-image-slider.js" type="text/javascript"></script>
+    <link href="JavascriptandImages/generic.css" rel="stylesheet" type="text/css" />
+<style>
+body {
+
+zoom: 120%;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>WLUG</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--header start -->
+
+
+
+<div id="header">
+
+
+<a href="Login.html" class="member">members login</a>
+
+<img src="images/logo.gif" alt="web development" />
+<!--img src="linux.png" alt="my img" style="left:00px;top:135px;height:307px;width:702px;padding-left:4.80%"-->
+
+<div id="sliderFrame" style="left:00px;top:-250px;height:100px;width:778px">
+        <div id="slider">
+            <a href="index.html" target="_blank">
+                <img src="JavascriptandImages/i1.jpg" alt="" />
+            </a>
+            <img src="JavascriptandImages/i2.jpg" alt=""/>
+            <img src="JavascriptandImages/i3.jpg" alt="" />
+            <img src="JavascriptandImages/i4.jpg" alt=""/>
+            <img src="JavascriptandImages/i5.jpg" alt=""/>
+			<img src="JavascriptandImages/i6.jpg" alt=""/>
+			<img src="JavascriptandImages/i7.jpg" alt=""/>
+			<img src="JavascriptandImages/i8.jpg" alt=""/>
+			<img src="JavascriptandImages/i9.jpg" alt=""/>
+			<img src="JavascriptandImages/i10.jpg" alt=""/>
+			<img src="JavascriptandImages/i11.jpg" alt=""/>
+			<img src="JavascriptandImages/i12.jpg" alt=""/>
+        </div>
+    </div>
+
+
+
+<ul class="nav" style="padding-left:10%">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="workshop.html">Workshops</a></li>
+			
+			<li><a href="clubs.html">Club Services</a></li>
+			<li class="home">Linux Commands </li>
+			<li><a href="aboutus.html">about us</a></li>
+			<li><a href="contact.html">contact us</a></li>
+</ul>
+</div>
+<!--header end -->
+<!--body start -->
+<div id="body">
+<p class="top"></p>
+<!--left panel start -->
+<div id="left">
+			
+			
+			<h2>What is UNIX?</h2> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="cmd2.html">2</a>
+
+				<p class="text1">	UNIX License PlateUNIX is an operating system which was first developed in the 1960s, and has been under constant development ever since. By operating system, we mean the suite of programs which make the computer work. It is a stable, multi-user, multi-tasking system for servers, desktops and laptops.
+
+  				UNIX systems also have a graphical user interface (GUI) similar to Microsoft Windows which provides an easy to use environment. However, knowledge of UNIX is required for operations which aren't covered by a graphical program, or for when there is no windows interface available, for example, in a telnet session.</p>
+  				
+  				<p class="text2">
+  				Types of UNIX<br />
+
+There are many different versions of UNIX, although they share common similarities. The most popular varieties of UNIX are Sun Solaris, GNU/Linux, and MacOS X.
+
+
+  				</p>
+  				<br />
+  				
+  				<p class="text2">
+  				
+  				The UNIX operating system
+
+The UNIX operating system is made up of three parts; the kernel, the shell and the programs.
+
+<br /><br /><b>The kernel</b><br/><br/>
+
+The kernel of UNIX is the hub of the operating system: it allocates time and memory to programs and handles the filestore and communications in response to system calls.
+
+As an illustration of the way that the shell and the kernel work together, suppose a user types rm myfile (which has the effect of removing the file myfile). The shell searches the filestore for the file containing the program rm, and then requests the kernel, through system calls, to execute the program rm on myfile. When the process rm myfile has finished running, the shell then returns the UNIX prompt % to the user, indicating that it is waiting for further commands.
+
+<br /><br /><b>The shell</b><br/>
+<br/>
+
+The shell acts as an interface between the user and the kernel. When a user logs in, the login program checks the username and password, and then starts another program called the shell. The shell is a command line interpreter (CLI). It interprets the commands the user types in and arranges for them to be carried out. The commands are themselves programs: when they terminate, the shell gives the user another prompt (% on our systems).
+
+The adept user can customise his/her own shell, and users can use different shells on the same machine. Staff and students in the school have the tcsh shell by default.
+
+The tcsh shell has certain features to help the user inputting commands.
+
+Filename Completion - By typing part of the name of a command, filename or directory and pressing the [Tab] key, the tcsh shell will complete the rest of the name automatically. If the shell finds more than one name beginning with those letters you have typed, it will beep, prompting you to type a few more letters before pressing the tab key again.
+
+  				
+  				</p>
+  				
+  				<p class="text2">
+  				Everything in UNIX is either a file or a process.
+				</p>
+			<h2>Basic Unix Commands</h2>
+			<h3>File Handling and Permissions</h3>
+			
+			
+			
+			<p class="text1">Access rights on files.<br />
+
+					r (or -), indicates read permission (or otherwise), that is, the presence or absence of permission to read and copy the file  <br />
+					w (or -), indicates write permission (or otherwise), that is, the permission (or otherwise) to change a file <br />
+					x (or -), indicates execution permission (or otherwise), that is, the permission to execute a file, where appropriate<br />
+					<b>Access rights on directories.</b><br />
+
+					r allows users to list files in the directory;<br />
+					w means that users may delete files from the directory or move files into it;<br />
+					<br />
+					x means the right to access files in the directory.<br /> <br />This implies that you may read files in the directory provided you have read permission on the individual files.<br />
+					So, in order to read a file, you must have execute permission on the directory containing that file, and hence on any directory containing that directory as a subdirectory, and so on, up the tree.
+			</p>		
+			
+						
+			
+			<h3> Compiling and installing the Unix software </h3>
+			
+			<p class="text2">
+			
+			
+	
+
+There are a number of steps needed to install the software.
+
+1.Locate and download the source code (which is usually compressed) <br />
+2.Unpack the source code<br />
+3.Compile the code<br />
+4.Install the resulting executable <br />
+5.Set paths to the installation directory <br />
+
+The only generic options you are likely to use are the --prefix and --exec-prefix options. These options are used to specify the installation directories.  
+
+The directory named by the --prefix option will hold machine independent files such as documentation, data and configuration files.
+
+The directory named by the --exec-prefix option, (which is normally a subdirectory of the --prefix directory), will hold machine dependent files such as executables.
+			
+			<br />
+			<a href="http://www.ee.surrey.ac.uk/Teaching/Unix/units-1.74.tar.gz">
+				Download here the code for unit conversions
+			
+			</a>
+			
+			to install it follow the instructions given below type on terminal:<br />
+
+			1.mkdir download<br />
+			2.gunzip units-1.74.tar.gz<br />
+			3.tar -xvf units-1.74.tar<br />
+			4.cd units-1.74<br />
+			5.mkdir ~/units174<br />
+			6. ./configure --prefix=$HOME/units174<br />
+			7.make<br />
+			8. make check<br />
+			9. make install<br />
+			10.cd ~/units174<br />
+			for running the program:<br />
+			11../units<br />
+			
+			
+			If any step returns not executed do it using sudo command.
+			</p>
+			
+			<a href="cmd2.html">
+			<p class="text1">
+			Processes and
+			
+			Secondary memory  go to next page
+			</p>
+
+			</a>
+			
+			
+</div>
+<!--left panel end -->
+<!--right panel start -->
+<div id="right">
+<h2>Search</h2>
+<form name="serch" action="#" method="post">
+			<p class="domain">enter the domain name</p>
+			<input type="text" name="name" />
+			<input type="submit" name="go" value="" class="go" />
+</form>
+<h2 class="scope">Contact modes</h2>
+<ul>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">GitHub</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Google+</a></li>
+			
+</ul>
+
+</div>
+<!--right panel end -->
+<p class="bot"></p>
+<br class="spacer" />
+</div>
+<!--body end -->
+<!--footer start -->
+
+
+<div id="link" style="margin-left:-70px;margin-top:-100px;padding-bottom:70px;">
+<a href="cmd2.html">2</a>
+</div>
+
+<div id="footer">
+<ul>
+<li><a href="#">Home</a>|</li>
+<li><a href="#">Workshops</a>|</li>
+<li><a href="#">Club Service</a>|</li>
+<li><a href="#">Linux Commands</a>|</li>
+<li><a href="#">about us</a>|</li>
+<li><a href="#">contact us</a></li>
+</ul>
+<p class="copyright">&nbsp; &copy; WLUG. All rights reserved.</p>
+</div>
+<!--footer end -->
+</body>
+</html>

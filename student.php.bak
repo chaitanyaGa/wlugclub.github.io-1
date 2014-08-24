@@ -1,0 +1,14 @@
+<?php
+  if( $_POST["name"] )
+  {
+     echo "Welcome ". $_POST['nm']. "<br />";
+     echo "You are in". $_POST['cls']. " Class.";
+	 echo "mobile no is". $_POST['mob']."mobile" ;
+	 
+     exit();
+  }
+  else
+  {
+			echo "please repeat the procedure by filling the \"Name\"";
+  }
+?>
